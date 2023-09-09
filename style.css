@@ -1,0 +1,169 @@
+
+body {
+    font-size: 15px;
+    overflow-x: hidden;
+}
+
+.header {
+    color: hsl(300, 43%, 22%);
+    width: 400px;
+    margin-top: 165px;
+    margin-left: 152px;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 48px;
+}
+
+.subheader {
+    color: hsl(303, 10%, 53%);
+    width: 450px;
+    margin-left: 152px;
+    margin-top: -15px;
+    line-height: 23px;
+}
+
+.star_1 {
+    margin-left: 730px;
+    margin-top: -208px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 130px;
+}
+
+.rate-info-reviews {
+    margin-left: 880px;
+    margin-top: -27px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.star_2 {
+    margin-left: 780px;
+    margin-top: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 130px;
+}
+
+.rate-info-report {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 930px;
+    margin-top: -26px;
+}
+
+.star_3 {
+    margin-left: 830px;
+    margin-top: 53px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 130px;
+}
+
+.rate-info-besttech {
+    color: hsl(300, 43%, 22%)
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 978px;
+    margin-top: -26px;
+}
+
+.review-card-colton {
+    width: 342px;
+    height: 227px;
+    background-color:hsl(300, 43%, 22%);
+    margin-top:105px;
+    margin-left: 150px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.review-card-colton:hover {
+    transform: translate(0,-20px);
+}
+
+.review-card-irene {
+    width: 338px;
+    height: 227px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin-left: 525px;
+    margin-top: -210px;
+    transition: all 0.5s ease-in-out;
+}
+
+.review-card-irene:hover {
+    transform: translate(0,-20px);
+}
+
+.review-card-anne {
+    width: 338px;
+    height: 227px;
+    background-color:hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin-left: 893px;
+    margin-top: -215px;
+    transition: all 0.5s ease-in-out;
+}
+
+.review-card-anne:hover {
+    transform: translate(0,-20px);
+}
+
+.avatar-colton {
+    border-radius: 100px;
+    width: 40px;
+    margin-left: 34px;
+    margin-top: 38px;
+}
+
+.avatar-irene {
+    border-radius: 100px;
+    width: 40px;
+    margin-left: 29px;
+    margin-top: 37px;
+}
+
+.avatar-anne {
+    border-radius: 100px;
+    width: 40px;
+    margin-left: 29px;
+    margin-top: 40px;
+}
+
+.user-info {
+    margin-left: 93px;
+    margin-top: -53px;
+}
+
+.user-name {
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);;
+    font-size: 13px;
+}
+
+.user-status {
+    font-weight: 100;
+    color: hsl(333, 80%, 67%);
+    font-size: 13px;
+    margin-top: -8px;
+}
+
+.user-feedback {
+    width: 289px;
+    height: 100px;
+    margin-top: 28px;
+    margin-left: 30px;
+    font-size: 13px;
+}
+
+.feedback-text {
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    line-height: 23px;
+}
